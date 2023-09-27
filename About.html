@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> BusMate Tracker - Stay on track</title>
+        <link rel="stylesheet" href="Links/About/AboutStyle.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="LOGO1.png" alt="Busmate"> BusMate-Tracker</li>
+            <li><a style="color:aliceblue" href="front.html" target="_self" >Home</a></li>
+            <li><a style="color:aliceblue" href="About.html" target="_self" >About</a></li>
+            <li><a style="color:aliceblue" href="http://localhost/Registration/signin.php" target="_self"  >Login/SignUp</a></li>
+            <!-- <li>SingUp</li> -->
+        </ul>
+    </nav>
+
+    <div class="slider">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="Links/About/s5.jpg" alt="s3"></div>
+              <div class="swiper-slide"><img src="Links/About/s3.jpg" alt="s3"></div>
+              <div class="swiper-slide"><img src="Links/About/s4.jpg" alt="s3"></div>
+              <div class="swiper-slide"><img src="Links/About/s1.jpg" alt="s1"></div>
+              <div class="swiper-slide"><img src="Links/About/s2.jpg" alt="s2"></div>
+             
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+    </div>
+
+    <div class="container">
+        <div class="BusAbout">
+            <h1 style="color:white"><center>BusMate Tracker - Stay on Track</center></h1>
+            <h1 style="color:white"><center>(About)</center></h1>
+            
+            <div class="About">
+                <label>
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center> Introducing BusMate Tracker: Revolutionizing Public Transportation in Himachal Pradesh</center></b></h2>
+                        <h3 style="margin-bottom: 20px;">In our fast-paced world, reliable and efficient public transportation is essential for the convenience and well-being of communities. That's where BusMate Tracker steps in to transform the way you experience public transportation in India/Himachal Pradesh.</h3>
+                    
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center>Solving the Transportation Puzzle</center></b></h2>
+                        <h3 style="margin-bottom: 20px;">Our mission at BusMate Tracker is to develop a smart transportation system that addresses the common problems faced by commuters and enhances the efficiency of public transportation. We understand the frustrations of waiting at a bus stop, uncertain about when your bus will arrive. With BusMate Tracker, those uncertainties are a thing of the past.</h3>
+                    
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center>Real-time Information at Your Fingertips</center></b></h2>
+                        <h3 style="margin-bottom: 20px;">Imagine having real-time information about the availability of buses and their upcoming arrival times right at your fingertips. That's precisely what our system provides. We leverage cutting-edge technologies such as GPS and integrate data from various sources, including buses and traffic management systems, to offer you accurate and up-to-date information.</h3>
+
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center>Know Your Bus's Whereabouts</center></b></h2>
+                        <h3 style="margin-bottom: 20px;">With BusMate Tracker, you can easily identify the current location of your desired bus. Whether you're planning your daily commute or an occasional trip, our system ensures you have the information you need to make informed decisions. No more guessing when your bus will arrive – we've got you covered.</h3>
+
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center>Emission Compliance and Sustainability</center></b></h2>
+                        <h3 style="margin-bottom: 20px;">At BusMate Tracker, we also care deeply about the environment and sustainability. We provide valuable information about the buses you'll be boarding, including their emission compliance, such as Bharat Stage IV, and their use of clean fuels like CNG or electricity. This not only helps you make eco-friendly choices but also contributes to a greener future.</h3>
+
+                    <h2 style="color: yellow; margin-bottom: 20px;"><b><center>Enhancing Himachal Pradesh's Public Transportation</center></b></h2>
+                        <h3 style="margin-bottom: 60px;">Our smart transportation system is not just a convenience; it's a game-changer for public transportation in Himachal Pradesh. By seamlessly integrating real-time data and sustainability information, BusMate Tracker significantly enhances the efficiency and convenience of your daily commute.
+
+                            Join us in redefining the way you experience public transportation. With BusMate Tracker, you're not just catching a bus; you're embarking on a journey of reliability, convenience, and sustainability. Say goodbye to uncertainty and hello to a brighter, more efficient future of transportation in Himachal Pradesh. Ride with confidence ride with BusMate Tracker.</h3>
+
+                    <h6>@BusMate Tracker by V-Company</h6>
+
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction:false,
+            }, 
+            // Optional parameters
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+              clickable:true,
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+    </script>
+</body>
+</html>

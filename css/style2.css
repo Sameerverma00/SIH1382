@@ -1,0 +1,63 @@
+/* css variable */
+
+:root {
+    --primary: #d8700f;
+    --white: #fff;
+  }
+  html,
+  body{
+      background-image: url("../image/pic.jpg");
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
+  .container {
+      height: 100%;
+  }
+  /* link styling of navigation bar */
+  
+  
+  .card {
+      width: 300px;
+      height: 400px;
+      background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-header{
+      color: #fff;
+  }
+  
+  .input-group > span {
+      background-color: var(--primary);
+      border: 0;
+      color: var(--white);
+  }
+  
+  input:focus{
+      outline: 0 0 0 0 !important;
+      box-shadow: 0 0 0 0 !important;
+  }
+  
+  .registration_btn {
+      background-color: var(--primary);
+      color: var(--white);
+  }
+  
+  .registration_btn:hover {
+      color: #000;
+      background-color: var(--white);
+  }
+  
+  .signup > a,
+  .signin > a{
+      color: var(--primary);
+  }
+  
+  .signin_card {
+      height: 320px;
+  }
+  
+  
+  
+  

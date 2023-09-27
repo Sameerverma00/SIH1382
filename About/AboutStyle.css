@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(133, 181, 228);
+    
+     /* background-image: url('bg00.jpg');
+     background-repeat: no-repeat; */
+     /* background-size: 100% 100%; */
+}
+
+.slider{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.swiper{
+    width: 90%;
+    height: fit-content;
+
+}
+.swiper-slide img {
+    width: 100%;
+
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+
+/* we are yousing the below code for the  liks */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.About{
+    padding-top: 5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 100px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.BusAbout{
+    align-items: center;
+    width: 90%;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 90%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg00.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+.linkCreater{
+    margin-top: 110px;
+}
+
+.BusItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.BusItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.link{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: red;
+    width: 100%;
+    left: 10px;
+    margin: 12px 05px;
+    justify-content: space-between;
+    align-items:center ;
+    border-radius: 34px;
+}
+
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
